@@ -21,6 +21,8 @@
     rel="shortcut icon" type="image/x-icon" />
   <link href="https://assets.website-files.com/img/webclip.png" rel="apple-touch-icon" />
   <link href="./css/video-js.css" rel="stylesheet" type="text/css">
+  <link href="./css/menu.css" rel="stylesheet" type="text/css">
+  <script src="./js/menu.js"></script>
   <script src="./js/video.js"></script>
   <style type="text/css">
     .vjs-default-skin .vjs-play-progress,
@@ -68,6 +70,35 @@
     }
   </style>
 </head>
+
+
+
+
+<header class="header">  
+  <div id="menu" class="menu-index">
+    <div class="menu_right" id="icon_menu" >
+      
+      <img class="menu_right" id="logo_mobile" src="/imagens/logo_teste003.png">
+  
+  </div>
+      <a href="javascript:void(0)" onclick="menuFunc()" class="icon_menu"><i class="w-icon-nav-menu"  id="icon_btn" class=""></i></a>
+    </div>
+  
+
+    <div class="list_menu" id="list_menu">
+      <ul class="list" id="list">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Tratamento</a></li>
+        <li><a href="#">Clínicas</a></li>
+        <li><a href="#">Remoção</a></li>
+        <li><a href="#">Contato</a></li>
+        <li style="align-items: center;"><img id="logo_icon" class="logo_icon" src="" alt=""></li>
+      </ul>
+    </div>
+</header>
+
+
+
 
 <body class="body">
   <div class="geral">
@@ -165,7 +196,7 @@
                     </div>
                     <div data-delay="0" data-hover="false" class="drop-menu w-dropdown">
                       <div class="link-menu w-dropdown-toggle">
-                        <div>Produtos</div>
+                        <div>Clínicas</div>
                       </div>
                       <nav class="drop-list-menu w-dropdown-list"><a href="#"
                           class="link-sub-menu w-dropdown-link">Produtos - sem categoria</a><a href="#"
@@ -310,7 +341,7 @@
       <section class="area-destaque">
         <div class="limite">
           <div class="bloco-info-destaque">
-            <h1 class="titulo-destaque">Produtos</h1>
+            <h1 class="titulo-destaque">Clínicas</h1>
             <div data-delay="8000" data-animation="slide" class="slider-produtos-dest w-slider" data-autoplay="true"
               data-easing="ease-in" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0"
               data-nav-spacing="6" data-duration="800" data-infinite="true">
@@ -325,7 +356,7 @@
                       </div>
                     </figure>
                     <div class="bloco-titulo-produto">
-                      <h2 class="titulo-produto">Produto 01</h2>
+                      <h2 class="titulo-produto">Clínica Masculina 01</h2>
                     </div>
                   </a></div>
                 <div class="slide-produto w-slide"><a href="#" data-ix="hover-album"
@@ -338,7 +369,7 @@
                       </div>
                     </figure>
                     <div class="bloco-titulo-produto">
-                      <h2 class="titulo-produto">Produto 02</h2>
+                      <h2 class="titulo-produto">Clínica Masculina 02</h2>
                     </div>
                   </a></div>
                 <div class="slide-produto w-slide"><a href="#" data-ix="hover-album"
@@ -351,7 +382,7 @@
                       </div>
                     </figure>
                     <div class="bloco-titulo-produto">
-                      <h2 class="titulo-produto">Produto 03</h2>
+                      <h2 class="titulo-produto">Clínica Masculina 03</h2>
                     </div>
                   </a></div>
                 <div class="slide-produto w-slide"><a href="#" data-ix="hover-album"
@@ -364,7 +395,7 @@
                       </div>
                     </figure>
                     <div class="bloco-titulo-produto">
-                      <h2 class="titulo-produto">Produto 04</h2>
+                      <h2 class="titulo-produto">Clínica Masculina 04</h2>
                     </div>
                   </a></div>
                 <div class="slide-produto w-slide"><a href="#" data-ix="hover-album"
@@ -377,7 +408,7 @@
                       </div>
                     </figure>
                     <div class="bloco-titulo-produto">
-                      <h2 class="titulo-produto">Produto 05</h2>
+                      <h2 class="titulo-produto">Clínica Masculina 05</h2>
                     </div>
                   </a></div>
                 <div class="slide-produto w-slide"><a href="#" data-ix="hover-album"
@@ -390,7 +421,7 @@
                       </div>
                     </figure>
                     <div class="bloco-titulo-produto">
-                      <h2 class="titulo-produto">Produto 06</h2>
+                      <h2 class="titulo-produto">Clínica Feminina 01</h2>
                     </div>
                   </a></div>
                 <div class="slide-produto w-slide"><a href="#" data-ix="hover-album"
@@ -403,7 +434,7 @@
                       </div>
                     </figure>
                     <div class="bloco-titulo-produto">
-                      <h2 class="titulo-produto">Produto 07</h2>
+                      <h2 class="titulo-produto">Clínica Feminina 02</h2>
                     </div>
                   </a></div>
                 <div class="slide-produto w-slide"><a href="#" data-ix="hover-album"
@@ -416,7 +447,7 @@
                       </div>
                     </figure>
                     <div class="bloco-titulo-produto">
-                      <h2 class="titulo-produto">Produto 08</h2>
+                      <h2 class="titulo-produto">Clínica Feminina 03</h2>
                     </div>
                   </a></div>
               </div>
@@ -431,8 +462,7 @@
       <div class="area-texto-destaque">
         <div class="limite">
           <div class="bloco-info-destaque">
-            <div class="texto-destaque">Oferecemos soluções inovadoras para que micro, pequenas e médias empresas tenham
-              a oportunidade de se desenvolver de forma contínua e sustentável. Fale conosco: (31) 3332-0875</div>
+            <div class="texto-destaque">Oferecemos tratameno para abuso de álcool e outras drogas. Fale conosco: (67) 98220-4464</div>
           </div>
         </div>
       </div>

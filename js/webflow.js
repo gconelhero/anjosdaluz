@@ -2182,7 +2182,7 @@
                     g = r.env(),
                     w = /list-manage[1-9]?.com/i,
                     b = e.debounce(function () {
-                        m("Bem Vindo!");
+                        
                     }, 100);
                 function y(e, n) {
                     var i = t(n),

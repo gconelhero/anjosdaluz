@@ -427,7 +427,8 @@ p {
   display: inline-block;
   width: 100%;
   margin-top: 20px;
-  background-color: transparent;
+  background-color: #343636;
+  
 }
 
 .nav-menu-topo {
@@ -1594,12 +1595,14 @@ p {
   display: block;
   width: 100%;
   height: auto;
+  margin: 0px;
 }
 
 .slider-destaque {
   width: 100%;
   height: auto;
   background-color: transparent;
+  
 }
 
 .mask-slider-destaque {
@@ -4110,7 +4113,7 @@ html.w-mod-js *[data-ix="legenda-slide"] {
   }
 
   ._03 {
-    margin-top: 20px;
+    margin-top: 0px;
   }
 
   .bloco-tel-rodape {
