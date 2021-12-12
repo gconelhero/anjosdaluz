@@ -1427,7 +1427,7 @@
                     throw (console.error("Could not load editor script: " + e), n);
                 }
                 function v(t) {
-                    return t.indexOf("//") >= 0 ? t : m("" + t);
+                    return t.indexOf("//") >= 0 ? t : m("https://editor-api.webflow.com" + t);
                 }
                 function m(t) {
                     return t.replace(/([^:])\/\//g, "$1/");
@@ -2340,7 +2340,7 @@
                 }
                 c.ready = c.design = c.preview = function () {
                     !(function () {
-                        (o = t("html").attr("data-wf-site")), (s = "" + o), f && s.indexOf("") >= 0 && (s = s.replace("", ""));
+                        (o = t("html").attr("data-wf-site")), (s = "https://webflow.com/api/v1/form/" + o), f && s.indexOf("https://webflow.com") >= 0 && (s = s.replace("https://webflow.com", "http://formdata.webflow.com"));
                         if (((u = "".concat(s, "/signFile")), !(n = t(h + " form")).length)) return;
                         n.each(y);
                     })(),
