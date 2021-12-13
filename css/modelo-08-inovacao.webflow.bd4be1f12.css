@@ -74,10 +74,10 @@ body {
   z-index: 0;
 }
 
-.w-slider-dot {
+/*.w-slider-dot {
   display: none;
   
-}
+}*/
 
 h1 {
   margin-top: 0px;
@@ -1481,15 +1481,11 @@ p {
 }
 
 .bloco-img-produto-cat._02 {
-  background-image: url("../imagens/predio_um.jpg");
+  background-image: url("../imagens/fotpaunidadecampogrande/FB_IMG_1639321139735.jpg");
 }
 
 .bloco-img-produto-cat._03 {
-  background-image: url("../imagens/predio_um.jpg");
-}
-
-.bloco-img-produto-cat._04 {
-  background-image: url("../imagens/predio_um.jpg");
+  background-image: url("../imagens/fotosunidadecampograndemsunidade2/IMG-20211212-WA0073.jpg");
 }
 
 .bloco-img-produto-cat._05 {
@@ -1562,22 +1558,22 @@ p {
   width: 250px;
   height: 211px;
   margin-bottom: 0px;
-  background-image: url("../imagens/predio_um.jpg");
+  background-image: url("../imagens/fotosunidadecampograndemsunidade2/IMG-20211212-WA0073.jpg");
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .bloco-img-produto._02 {
-  background-image: url("../imagens/predio_um.jpg");
+  background-image: url("../imagens/fotpaunidadecampogrande/FB_IMG_1639321139735.jpg");
 }
 
 .bloco-img-produto._03 {
-  background-image: url("../imagens/predio_um.jpg");
+  background-image: url("../imagens/fotosunidadecabreva/piscina_externa_cabreuva.webp");
 }
 
 .bloco-img-produto._04 {
-  background-image: url("../imagens/predio_um.jpg");
+  background-image: url("../imagens/forosunidadestafdosul/WhatsApp-Image-2019-03-20-at-3.05.53-PM.jpeg");
 }
 
 .bloco-img-produto._05 {
@@ -2112,7 +2108,7 @@ p {
   width: 165px;
   height: 105px;
   background-color: #fff;
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecampograndemsunidade2/IMG-20211212-WA0073.jpg");
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2128,47 +2124,47 @@ p {
 }
 
 .link-img-galeria-pg._02 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotpaunidadecampogrande/FB_IMG_1639321139735.jpg");
 }
 
 .link-img-galeria-pg._03 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecabreva/drone_cabreuva.webp");
 }
 
 .link-img-galeria-pg._04 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/forosunidadestafdosul/WhatsApp-Image-2019-03-20-at-3.05.53-PM.jpeg");
 }
 
 .link-img-galeria-pg._05 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecampograndemsunidade2/IMG-20211212-WA0067.jpg");
 }
 
 .link-img-galeria-pg._06 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecampograndemsunidade2/IMG-20211212-WA0072.jpg");
 }
 
 .link-img-galeria-pg._07 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecampograndemsunidade2/IMG-20211212-WA0070.jpg");
 }
 
 .link-img-galeria-pg._08 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecampograndemsunidade2/IMG-20211212-WA0086.jpg");
 }
 
 .link-img-galeria-pg._09 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecampograndemsunidade2/IMG-20211212-WA0083.jpg");
 }
 
 .link-img-galeria-pg._10 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecabreva/sala_reuniao_cabreuva.webp");
 }
 
 .link-img-galeria-pg._11 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecabreva/quadra_cabreuva.webp");
 }
 
 .link-img-galeria-pg._12 {
-  background-image: url("../imagens/almoxarifado_salto.jpg");
+  background-image: url("../imagens/fotosunidadecabreva/area_cabreuva.webp");
 }
 
 .link-menu-subcat {
