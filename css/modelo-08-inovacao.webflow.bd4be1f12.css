@@ -3330,7 +3330,7 @@ p {
   overflow: hidden;
   width: 88%;
   height: 243px;
-  background-image: url("../imagens/sala_reuniao_rumo_certo.jpg");
+  background-image: url("../imagens/post_facebook_01.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3339,15 +3339,15 @@ p {
 }
 
 .bloco-insta._2 {
-  background-image: url("../imagens/sala_reuniao_rumo_certo.jpg");
+  background-image: url("../imagens/post_facebook_02.jpg");
 }
 
 .bloco-insta._3 {
-  background-image: url("../imagens/sala_reuniao_rumo_certo.jpg");
+  background-image: url("../imagens/post_facebook_03.jpg");
 }
 
 .bloco-insta._4 {
-  background-image: url("../imagens/sala_reuniao_rumo_certo.jpg");
+  background-image: url("../imagens/post_facebook_04.jpg");
 }
 
 .bloco-insta._5 {
@@ -3493,6 +3493,18 @@ html.w-mod-js *[data-ix="legenda-slide"] {
 }
 
 @media screen and (max-width: 991px) {
+
+  .numero-tel {
+    display: flex;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+  }
+  .numero-tel:hover {
+    color: white;
+    display: flex;
+    
+  }
 
   .ico-whats {
     display: inline-block;
