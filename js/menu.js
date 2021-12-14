@@ -27,6 +27,8 @@ if ( window.scroll > 60.00000000000000 || document.documentElement.scrollTop > 6
   document.getElementById("icon_btn").style.margin = "2px";
   document.getElementById("tx-whats-mobile").style.fontSize = "0px";
   document.getElementById("icon-whats").style.marginRight = "0px";
+  document.getElementById("tx-whats-mobile").style.transition = "all 0.5s ease";
+  
 
 } else {
   

@@ -1870,8 +1870,8 @@ p {
   width: 252px;
   height: 218px;
   margin-bottom: 0px;
-  background-color: #fff;
-  background-image: url("../imagens/quarto_st_fe.jpeg");
+  background-color: #252525;
+  background-image: url("../imagens/remocao_logo.png");
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3499,13 +3499,13 @@ html.w-mod-js *[data-ix="legenda-slide"] {
     font-family: 'Fontawesome webfont', sans-serif;
     font-size: 35px;
     margin-right: 10px;
-    
+
   }
   
   .tx-whats-mobile {
     display: inline-block;
     font-size: 15px;
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
     
   }
 
