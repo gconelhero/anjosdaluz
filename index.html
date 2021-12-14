@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Anjos da Luz</title>
+  <title id="inicio">Anjos da Luz</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <meta content="Webflow" name="generator" />
   <link href="./css/modelo-08-inovacao.webflow.bd4be1f12.css" rel="stylesheet" type="text/css" />
@@ -87,11 +87,11 @@
 
     <div class="list_menu" id="list_menu">
       <ul class="list" id="list">
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Empresa</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Galeria de Fotos</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#empresa">Empresa</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#galeria">Galeria de Fotos</a></li>
+        <li><a href="#contato">Contato</a></li>
         <li style="align-items: center;"><img id="logo_icon" class="logo_icon" src="" alt=""></li>
       </ul>
     </div>
@@ -114,11 +114,11 @@
               <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease"
                 data-easing2="ease" role="banner" class="nav-bar-menu-mov w-nav">
                 <div class="w-container">
-                  <div role="navigation" class="nav-menu-mov w-nav-menu"><a href="" aria-current="page"
-                      class="link-move w-nav-link w--current">Início</a><a href="#"
-                      class="link-move w-nav-link">Empresa</a><a href="#"
-                      class="link-move w-nav-link">Serviços</a><a href="#"
-                      class="link-move w-nav-link">Galeria de Fotos</a><a href="#"
+                  <div role="navigation" class="nav-menu-mov w-nav-menu"><a href="#inicio" aria-current="page"
+                      class="link-move w-nav-link w--current">Início</a><a href="#empresa"
+                      class="link-move w-nav-link">Empresa</a><a href="#servicos"
+                      class="link-move w-nav-link">Serviços</a><a href="#galeria"
+                      class="link-move w-nav-link">Galeria de Fotos</a><a href="#contato"
                       class="link-move w-nav-link">Contato</a></div>
                   <div class="link-header w-nav-button">
                     <div class="w-icon-nav-menu"></div>
@@ -178,66 +178,31 @@
               <div class="coluna-0 w-col w-col-9 w-col-medium-9 w-col-small-6">
                 <div data-collapse="medium" data-animation="over-right" data-duration="400" data-doc-height="1"
                   data-easing="ease-in" data-easing2="ease" role="banner" class="nav-bar-menu w-nav">
-                  <div role="navigation" class="nav-menu-topo w-nav-menu"><a href="#" aria-current="page"
+                  <div role="navigation" class="nav-menu-topo w-nav-menu"><a href="#inicio" aria-current="page"
                       class="link-menu w-nav-link w--current">Início</a>
-                    <div data-delay="0" data-hover="false" class="drop-menu w-dropdown">
-                      <div class="link-menu w-dropdown-toggle">
-                        <div>Empresa</div>
-                      </div>
-                      <nav class="drop-list-menu w-dropdown-list"><a href="#"
-                          class="link-sub-menu w-dropdown-link">Empresa - Texto único</a><a href="#"
-                          class="link-sub-menu w-dropdown-link">Empresa - Multitexto em página única</a><a
-                          href="#" class="link-sub-menu w-dropdown-link">Empresa - Multitexto com
-                          categoria</a><a href="#" class="link-sub-menu w-dropdown-link">Empresa
-                          - Multitexto com subcategoria</a></nav>
+                      
+                      <a href="#empresa"><div class="link-menu w-dropdown-toggle"><div>Empresa</div></div></a>
+                    
+                      <div data-delay="0" data-hover="false" class="drop-menu w-dropdown">
+                        <a href="#servicos"><div class="link-menu w-dropdown-toggle"><div>Serviços</div></div></a>
                     </div>
                     <div data-delay="0" data-hover="false" class="drop-menu w-dropdown">
-                      <div class="link-menu w-dropdown-toggle">
-                        <div>Clínicas</div>
-                      </div>
-                      <nav class="drop-list-menu w-dropdown-list"><a href="#"
-                          class="link-sub-menu w-dropdown-link">Produtos - sem categoria</a><a href="#"
-                          class="link-sub-menu w-dropdown-link">Produtos - com categoria</a><a href="#"
-                          class="link-sub-menu w-dropdown-link">Produtos - com subcategoria</a></nav>
+                      <a href="#galeria"><div class="link-menu w-dropdown-toggle"><div>Galeria de Fotos</div></div></a>
                     </div>
                     <div data-delay="0" data-hover="false" class="drop-menu w-dropdown">
-                      <div class="link-menu w-dropdown-toggle">
-                        <div>Serviços</div>
-                      </div>
-                      <nav class="drop-list-menu w-dropdown-list"><a href="#"
-                          class="link-sub-menu w-dropdown-link">Serviços - Texto único</a><a href="#"
-                          class="link-sub-menu w-dropdown-link">Serviços - Multitexto em página única</a><a
-                          href="#" class="link-sub-menu w-dropdown-link">Serviços - Multitexto com
-                          categoria</a><a href="# " class="link-sub-menu w-dropdown-link">Serviços
-                          - Multitexto com subcategoria</a></nav>
-                    </div>
-                    <div data-delay="0" data-hover="false" class="drop-menu w-dropdown">
-                      <div class="link-menu w-dropdown-toggle">
-                        <div>Galeria de Fotos</div>
-                      </div>
-                      <nav class="drop-list-menu w-dropdown-list"><a href="#"
-                          class="link-sub-menu w-dropdown-link">Galeria de Fotos - sem  categoria</a><a
-                          href="#" class="link-sub-menu w-dropdown-link">Galeria de Fotos - com
-                          categoria</a><a href="#" class="link-sub-menu w-dropdown-link">Galeria de
-                          Fotos - com categoria e menu lateral</a></nav>
-                    </div>
-                    <div data-delay="0" data-hover="false" class="drop-menu w-dropdown">
-                      <div class="link-menu w-dropdown-toggle">
-                        <div>Notícias</div>
-                      </div>
                       <nav class="drop-list-menu w-dropdown-list"><a href="#"
                           class="link-sub-menu w-dropdown-link">Notícias - sem categoria</a><a href="#"
                           class="link-sub-menu w-dropdown-link">Notícias - com categoria</a></nav>
-                    </div><a href="#" class="link-menu w-nav-link">Localização</a><a href="#"
+                    </div><a href="#contato"
                       class="link-menu w-nav-link">Contato</a>
                     <div data-delay="0" data-hover="false" class="drop-menu w-dropdown">
                       <div class="link-menu w-dropdown-toggle">
-                        <div>Outros</div>
+                        
                       </div>
                       <nav class="drop-list-menu w-dropdown-list"><a href="/arquivos-pg"
-                          class="link-sub-menu w-dropdown-link">Arquivos - sem categoria</a><a href="/arquivos-cat"
-                          class="link-sub-menu w-dropdown-link">Arquivos - com categoria</a><a href="/orcamento"
-                          class="link-sub-menu w-dropdown-link">Formulário - Orçamento</a><a href="/trabalhe-conosco"
+                          class="link-sub-menu w-dropdown-link">Arquivos - sem categoria</a><a href="#"
+                          class="link-sub-menu w-dropdown-link">Arquivos - com categoria</a><a href="#"
+                          class="link-sub-menu w-dropdown-link">Formulário - Orçamento</a><a href="#"
                           class="link-sub-menu w-dropdown-link">Formulário - Trabalhe Conosco</a><a
                           href="/contato-localizacao" class="link-sub-menu w-dropdown-link">Contato - Localização</a><a
                           href="/parceiros-link-pg" class="link-sub-menu w-dropdown-link">Equipe - Link externo em
@@ -291,7 +256,7 @@
             <div class="w-icon-slider-left"></div>
           </div>
           <div class="nav-slider-destaque w-slider-arrow-right">
-            <div class="w-icon-slider-right"></div>
+            <div id="empresa" class="w-icon-slider-right"></div>
           </div>
         </div>
       </section>
@@ -395,7 +360,7 @@
                   </a></div>
                     
                 </div>
-                <div class="nav-slider-produto w-slider-nav w-shadow"></div>
+                <div id="servicos" class="nav-slider-produto w-slider-nav w-shadow"></div>
               </div>
               <div class="bloco-ver"><a href="https://wa.me/5567982204464" class="link-ver w-inline-block w-clearfix" target="_blank">
                   <div>Saiba Mais</div>
@@ -444,7 +409,7 @@
                         class="link-serv-dest w-inline-block" target="_blank">
                         <div class="bloco-info-serv">
                           <h2 class="titulo-serv-dest">Área de atuação</h2>
-                          <div class="texto-serv">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                          <div id="galeria" class="texto-serv">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
                             Mauris blandit aliquet elit, eget tincidunt nibh pulvinar  pellentesque nec, egestas non
                             nisi.</div>
                         </div>
@@ -905,7 +870,7 @@
                 </div>
               </div>
             </div>
-            <div class="bloco-ver"><a href="/videos-pg" class="link-ver w-inline-block w-clearfix">
+            <div id="contato" class="bloco-ver"><a href="/videos-pg" class="link-ver w-inline-block w-clearfix">
                 <div>Ver todos</div>
               </a></div>
           </div>
@@ -1041,8 +1006,8 @@
       <div class="limite w-clearfix">
         <div class="bloco-social-rodape"><a href="https://www.facebook.com/" target="_blank"
             class="link-social w-inline-block"><img
-              src="./icons/icone-facebook.png"
-              alt="" /></a><a href="https://www.instagram.com/" target="_blank" class="link-social w-inline-block"><img
+              src="./icons/icone-facebook.png "
+              alt="Facebook" /></a><a href="https://www.instagram.com/" target="_blank" class="link-social w-inline-block"><img
               src="https://assets.website-files.com/576abfb581c75aa24d8e92a5/576abfb581c75aa24d8e92ec_icone-instagram.png"
               alt="" /></a><a href="https://plus.google.com/up/accounts/upgrade/?continue=https://plus.google.com/"
             target="_blank" class="link-social _0 w-inline-block"><img

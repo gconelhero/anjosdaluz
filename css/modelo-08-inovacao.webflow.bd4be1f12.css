@@ -380,7 +380,7 @@ p {
 }
 
 .link-move.w--current {
-  border-bottom: 2px solid transparent;
+  border-bottom: 0px solid transparent;
   color: #e29a00;
 }
 
