@@ -3422,7 +3422,7 @@ p {
   border: 1px solid #00a798;
   border-radius: 0px;
   background-color: #036c62;
-  background-image: url("../icons/whatsapp_topo.png");
+  background-image: url("../imagens/icones/whatsapp_topo.png");
   background-position: 8px 50%;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -4123,7 +4123,7 @@ html.w-mod-js *[data-ix="legenda-slide"] {
   }
 
   .bt-zap-topo {
-    display: none;
+    display: inline-flex;
   }
 }
 
