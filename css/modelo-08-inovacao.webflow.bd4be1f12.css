@@ -3408,11 +3408,15 @@ p {
   margin-right: 10px;
   font-family: 'Fontawesome webfont', sans-serif;
   font-size: 22px;
+  font-size: 32px;
 }
 
 .tx-whats {
   display: inline-block;
+
 }
+
+
 
 .bt-zap-topo {
   position: relative;
@@ -3489,6 +3493,22 @@ html.w-mod-js *[data-ix="legenda-slide"] {
 }
 
 @media screen and (max-width: 991px) {
+
+  .ico-whats {
+    display: inline-block;
+    font-family: 'Fontawesome webfont', sans-serif;
+    font-size: 35px;
+    margin-right: 10px;
+    
+  }
+  
+  .tx-whats-mobile {
+    display: inline-block;
+    font-size: 15px;
+    transition: all 0.2s ease;
+    
+  }
+
   .texto-empresa-dest {
     text-align: center;
   }
