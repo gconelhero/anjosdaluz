@@ -9,10 +9,10 @@ function sendEmail() {
         + " - " + document.getElementById("mail-4").value
         + " - " + document.getElementById("phone-4").value;
     Email.send({
-        Host: "smtp.gmail.com",
-        Username: "gconelhero@gmail.com",
-        Password: "ovkpvlzpuojzuxpn",
-        To: "gconelhero@gmail.com",
+        Host: "smtp-mail.outlook.com",
+        Username: "gconelhero@hotmail.com",
+        Password: "",
+        To: "gconelhero@hotmail.com",
         From: document.getElementById("mail-4").value,
         Subject: document.getElementById("subject-4").value,
         Body: message,
