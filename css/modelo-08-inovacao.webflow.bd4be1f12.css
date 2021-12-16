@@ -28,7 +28,7 @@
   .w-col-6{width:50%}
   .w-col-7{width:58.33333333%}
   .w-col-8{width:66.66666667%}
-  .w-col-9{width:75%}
+  .w-col-9{width:75%; margin-top: 4%;}
   .w-col-10{width:83.33333333%}
   .w-col-11{width:91.66666667%}
   .w-col-12{width:100%}
@@ -1577,7 +1577,7 @@ p {
 }
 
 .bloco-img-produto._05 {
-  background-image: url("../imagens/predio_um.jpg");
+  background-image: url("../imagens/refeitorio_salto.jpg");
 }
 
 .bloco-img-produto._06 {
@@ -3039,8 +3039,8 @@ p {
 
 .bloco-img-destaque {
   width: 360px;
-  height: 200px;
-  background-image: url("../imagens/refeiorio_dois_salto.jpg");
+  height: 280px;
+  background-image: url("../imagens/icones/logo_cut.png");
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -3139,6 +3139,7 @@ p {
   color: #fff;
   font-size: 1.9em;
   line-height: 1.9em;
+  margin-top: 40px;
 }
 
 .palavra-chave-topo {
@@ -3523,6 +3524,7 @@ html.w-mod-js *[data-ix="legenda-slide"] {
 
   .texto-empresa-dest {
     text-align: center;
+    margin-top: 10px;
   }
   
   .w-slider-dot {
@@ -3538,7 +3540,7 @@ html.w-mod-js *[data-ix="legenda-slide"] {
   }
 
   .logo {
-    width: 100%;
+    width: 10%;
     text-align: center;
   
   }
@@ -4115,7 +4117,10 @@ html.w-mod-js *[data-ix="legenda-slide"] {
   .bloco-img-destaque {
     display: inline-block;
     width: 100%;
-    height: 290px;
+    height: 260px;
+    background-image: url("../imagens/icones/logo_cut.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-bottom: 10px;
     text-align: center;
   }
