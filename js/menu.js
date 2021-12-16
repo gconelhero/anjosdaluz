@@ -21,8 +21,9 @@ function menuClose() {
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
 if ( window.scroll > 60.00000000000000 || document.documentElement.scrollTop > 60.00000000000000) {
-  document.getElementById("logo_icon").style.width = "60px";
-  
+  document.getElementById("logo-menu").style.width = "10%";
+
+  document.getElementById("logo-menu").style.transition = "all 0.3s ease";
   document.getElementById("icon_btn").style.fontSize = "40px";
   document.getElementById("icon_btn").style.margin = "2px";
   document.getElementById("tx-whats-mobile").style.fontSize = "0px";
@@ -32,7 +33,7 @@ if ( window.scroll > 60.00000000000000 || document.documentElement.scrollTop > 6
 
 } else {
   
-  document.getElementById("logo_icon").style.width = "100px";
+  document.getElementById("logo-menu").style.width = "30%";
   
   document.getElementById("icon_btn").style.fontSize = "60px";
   document.getElementById("icon_btn").style.margin = "4.15px";
